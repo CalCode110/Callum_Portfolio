@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Callum</title>
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="../index.html" class="nav-logo">CAL<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="devlog.html">Dev Log</a></li>
+      <li><a href="labs.html">Labs</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="page-header">
+    <div class="section-label">Portfolio</div>
+    <h1>Projects</h1>
+    <p>Four games built from scratch in C++ — no engines, just code, SDL2, and problem solving.</p>
+  </div>
+
+  <section class="projects-page">
+
+    <!-- RALLY APEX HUNTER -->
+    <div class="project-full" id="rally">
+      <div class="project-images">
+        <div class="project-img-box main-img">
+          <!-- REPLACE: <img src="../images/projects/rally-main.png" alt="Rally Apex Hunter gameplay"> -->
+          <span>Add screenshot: rally-main.png</span>
+        </div>
+        <div class="project-img-box">
+          <!-- REPLACE: <img src="../images/projects/rally-2.png" alt="Rally AI"> -->
+          <span>rally-2.png</span>
+        </div>
+        <div class="project-img-box">
+          <!-- REPLACE: <img src="../images/projects/rally-3.png" alt="Rally HUD"> -->
+          <span>rally-3.png</span>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="project-meta">
+          <span class="meta-tag accent">Individual Project</span>
+          <span class="meta-tag blue">COMP710</span>
+          <span class="meta-tag">C++ · SDL2 · FMOD · OpenGL</span>
+        </div>
+        <h2>Rally Apex Hunter</h2>
+        <p>
+          A top-down 2D rally racing game built entirely in C++ using SDL2 for rendering, FMOD for spatial audio, and Box2D for physics. Developed over a semester as my COMP710 individual project from Gold milestone through to submission.
+        </p>
+        <p>
+          The game features a full AI opponent system using waypoint pathfinding, border avoidance logic, and an unstuck mechanism to handle edge cases when the AI gets trapped. Player feedback was handled through a HUD showing speed, lap times, and a star rating system on completion.
+        </p>
+
+        <h4>Key Features</h4>
+        <ul class="feature-list">
+          <li>Waypoint-based AI with border avoidance and unstuck system</li>
+          <li>FMOD spatial audio — engine pitch tied to vehicle speed</li>
+          <li>Box2D physics integration for vehicle handling</li>
+          <li>Particle effects, fullscreen mode, Xbox controller support</li>
+          <li>Data-driven design — game data loaded from external files</li>
+          <li>AUT/FMOD splash screens, instructions screen, cheat codes</li>
+        </ul>
+
+        <h4>Documentation Produced</h4>
+        <ul class="feature-list">
+          <li>Game Pitch Document (1-page non-technical)</li>
+          <li>Game Design Document (multi-page with diagrams and asset list)</li>
+          <li>Technical Design Document (UML, flowcharts, acceptance test plan)</li>
+          <li>Post-Mortem (1250+ words across five sections)</li>
+          <li>GitHub commit log and readme.pdf</li>
+        </ul>
+
+        <h4>Reflection</h4>
+        <p>
+          <!-- ADD YOUR OWN REFLECTION HERE -->
+          Add your reflection here — what was the hardest part? What would you do differently? What are you most proud of?
+        </p>
+      </div>
+    </div>
+
+    <!-- CRYPTFIRE -->
+    <div class="project-full reverse" id="cryptfire">
+      <div class="project-images">
+        <div class="project-img-box main-img">
+          <!-- REPLACE: <img src="../images/projects/cryptfire-main.png" alt="Cryptfire gameplay"> -->
+          <span>Add screenshot: cryptfire-main.png</span>
+        </div>
+        <div class="project-img-box">
+          <!-- REPLACE: <img src="../images/projects/cryptfire-2.png" alt="Room design"> -->
+          <span>cryptfire-2.png</span>
+        </div>
+        <div class="project-img-box">
+          <!-- REPLACE: <img src="../images/projects/cryptfire-3.png" alt="Sprite work"> -->
+          <span>cryptfire-3.png</span>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="project-meta">
+          <span class="meta-tag accent">Group Project</span>
+          <span class="meta-tag blue">COMP710</span>
+          <span class="meta-tag">C++ · SDL2 · Tiled · Photopea</span>
+        </div>
+        <h2>Cryptfire</h2>
+        <p>
+          A top-down dungeon shooter developed as the COMP710 group project, inspired by Doom and Enter the Gungeon. The team used a Scrum-based workflow with sprint cards, a product backlog, and MS Planner scheduling.
+        </p>
+        <p>
+          My primary contributions were documentation and visual assets. I designed and produced room backgrounds in Tiled, combined and refined sprite layers in Photopea, and authored the Game Pitch Document and the full Game Design Document for the project.
+        </p>
+
+        <h4>My Contributions</h4>
+        <ul class="feature-list">
+          <li>Game Pitch Document and Game Design Document</li>
+          <li>Room background design and layout using Tiled</li>
+          <li>Sprite layer combining and refinement in Photopea</li>
+          <li>Git repository management and version control</li>
+          <li>Scrum sprint planning and backlog management</li>
+        </ul>
+
+        <h4>Reflection</h4>
+        <p>
+          <!-- ADD YOUR OWN REFLECTION HERE -->
+          Add your reflection here — how did the group work go? What did you learn from collaborating vs. working solo?
+        </p>
+      </div>
+    </div>
+
+    <!-- HELICOPTER GAME -->
+    <div class="project-full" id="helicopter">
+      <div class="project-images">
+        <div class="project-img-box main-img">
+          <!-- REPLACE: <img src="../images/projects/heli-main.png" alt="Helicopter game"> -->
+          <span>Add screenshot: heli-main.png</span>
+        </div>
+        <div class="project-img-box">
+          <!-- REPLACE: <img src="../images/projects/heli-2.png" alt="Helicopter gameplay"> -->
+          <span>heli-2.png</span>
+        </div>
+        <div class="project-img-box">
+          <!-- REPLACE: <img src="../images/projects/heli-3.png" alt="Obstacle section"> -->
+          <span>heli-3.png</span>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="project-meta">
+          <span class="meta-tag accent">Solo Project</span>
+          <span class="meta-tag">C++</span>
+          <span class="meta-tag">Previous Semester</span>
+        </div>
+        <h2>Helicopter Game</h2>
+        <p>
+          A side-scrolling helicopter game built in C++ during a previous semester. The player navigates through procedurally-placed obstacles, with the core challenge being precise vertical control of the helicopter's altitude.
+        </p>
+
+        <h4>Key Features</h4>
+        <ul class="feature-list">
+          <li>Side-scrolling gameplay with obstacle avoidance</li>
+          <li>Helicopter physics — lift and gravity simulation</li>
+          <li>Collision detection system</li>
+          <li>Score tracking and high score system</li>
+        </ul>
+
+        <h4>Reflection</h4>
+        <p>
+          <!-- ADD YOUR OWN REFLECTION HERE -->
+          Add your reflection here — what semester was this? What did you learn from it that carried forward?
+        </p>
+      </div>
+    </div>
+
+    <!-- BLACKJACK -->
+    <div class="project-full reverse" id="blackjack">
+      <div class="project-images">
+        <div class="project-img-box main-img">
+          <!-- REPLACE: <img src="../images/projects/blackjack-main.png" alt="Blackjack game"> -->
+          <span>Add screenshot: blackjack-main.png</span>
+        </div>
+        <div class="project-img-box">
+          <!-- REPLACE: <img src="../images/projects/blackjack-2.png" alt="Card logic"> -->
+          <span>blackjack-2.png</span>
+        </div>
+        <div class="project-img-box">
+          <!-- REPLACE: <img src="../images/projects/blackjack-3.png" alt="Betting UI"> -->
+          <span>blackjack-3.png</span>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="project-meta">
+          <span class="meta-tag accent">Solo Project</span>
+          <span class="meta-tag">C++</span>
+        </div>
+        <h2>Blackjack</h2>
+        <p>
+          A fully implemented Blackjack game built in C++, covering the complete card game logic from deck shuffling and hand evaluation through to a betting system and win/loss tracking across multiple rounds.
+        </p>
+
+        <h4>Key Features</h4>
+        <ul class="feature-list">
+          <li>Full deck management — shuffling and dealing</li>
+          <li>Ace value logic (1 or 11 depending on hand)</li>
+          <li>Betting system with chip tracking</li>
+          <li>Dealer AI following standard Blackjack rules (hit on &lt;17)</li>
+          <li>Win, lose, bust, and push detection</li>
+        </ul>
+
+        <h4>Reflection</h4>
+        <p>
+          <!-- ADD YOUR OWN REFLECTION HERE -->
+          Add your reflection here — what was the trickiest logic to implement? How did building this help your overall understanding of C++?
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <span class="nav-logo">CAL<span>.</span></span>
+      <p>Game Developer · Auckland, NZ</p>
+    </div>
+    <div class="footer-right">
+      <a href="https://github.com/CalCode110/Callum_Portfolio" target="_blank">GitHub</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
